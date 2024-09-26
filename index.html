@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Directory Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Company Directory Portal</h1>
+  </header>
+
+  <!-- Registration Form -->
+  <section class="registration-form">
+    <h2>Employee Registration</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="department">Department:</label>
+      <input type="text" id="department" name="department" required>
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required>
+
+      <input type="submit" value="Register">
+    </form>
+  </section>
+
+  <!-- Employee List -->
+  <section class="employee-list">
+    <h2>Employee List</h2>
+    <ul>
+      <li><a href="#">Shyam Kishor</a></li>
+      <li><a href="#">Jane Smith</a></li>
+      <li><a href="#">Michael Johnson</a></li>
+      <li><a href="#">Emily Davis</a></li>
+    </ul>
+  </section>
+
+  <!-- Employee Details Table -->
+  <section class="employee-details">
+    <h2>Employee Details</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Email</th>
+        <th>Location</th>
+      </tr>
+      <tr>
+        <td>John Doe</td>
+        <td>HR</td>
+        <td>johndoe@example.com</td>
+        <td>New York</td>
+      </tr>
+      <tr>
+        <td>Jane Smith</td>
+        <td>Marketing</td>
+        <td>janesmith@example.com</td>
+        <td>San Francisco</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Embedded Map -->
+  <section class="map">
+    <h2>Office Location</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508423!2d144.95373631547825!3d-37.81720974202127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5773d67df91b9d!2sFederation+Square!5e0!3m2!1sen!2sau!4v1631582986072!5m2!1sen!2sau"
+      width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Company Directory Portal</p>
+  </footer>
+
+</body>
+</html>

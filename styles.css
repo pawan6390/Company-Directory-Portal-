@@ -1,0 +1,146 @@
+/* General styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e1c3c3;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0e300f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  /* Registration Form */
+  .registration-form {
+    background-color: rgb(148, 94, 94);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .registration-form input[type="text"],
+  .registration-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .registration-form input[type="submit"] {
+    background-color: #23bb3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .registration-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Employee List */
+  .employee-list {
+    background-color: rgb(142, 96, 108);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-list h2 {
+    margin-bottom: 20px;
+  }
+  
+  .employee-list ul {
+    list-style-type: none;
+  }
+  
+  .employee-list ul li {
+    margin: 10px 0;
+  }
+  
+  .employee-list ul li a {
+    text-decoration: none;
+    color: #321993;
+  }
+  
+  .employee-list ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Employee Details Table */
+  .employee-details {
+    background-color: rgb(140, 198, 168);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(154, 85, 85, 0.1);
+  }
+  
+  .employee-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-details table th, 
+  .employee-details table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .employee-details table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Map Section */
+  .map {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .map iframe {
+    width: 100%;
+    border: none;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+  }
+  
